@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: 1px solid black;
+  width: 310px;
+  margin: 50px auto 0px auto;
+  padding: 5px;
+}
+
+.wrapper .main .main__item {
+  width: 300px;
+  height: 25px;
+}
+
+.wrapper .main .main__item:focus {
+  border: 3px solid black;
+}
+
+.wrapper .new-block .new-item {
+  border: 1px solid black;
+  width: 310px;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrapper .new-block .new-item .chk-item {
+  margin: 0px 0px 0px 5px;
+}
+
+.wrapper .new-block .new-item .input-item {
+  margin: 0px 0px 0px 10px;
+  border: none;
+}
+
+.wrapper .new-block .new-item .input-item.strike {
+  text-decoration: line-through;
+  margin-right: 17.5px;
+}
+
+.wrapper .new-block .new-item .input-item:disabled {
+  background: #fff;
+}
+
+.wrapper .new-block .new-item .button {
+  margin: 0px 0px 0px 95px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 2px;
+  width: 20px;
+  height: 20px;
+  border-color: red;
+  font-weight: 700;
+  color: red;
+}
+/*# sourceMappingURL=main.css.map */

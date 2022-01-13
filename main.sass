@@ -1,0 +1,56 @@
+* 
+	margin: 0
+	padding: 0
+
+
+%block-prop
+
+.wrapper
+	display: flex
+	justify-content: center
+	flex-direction: column
+	align-items: center
+	.main
+		display: flex
+		justify-content: center
+		border: 1px solid black
+		width: 310px
+		margin: 50px auto 0px auto
+		padding: 5px
+		.main__item
+			width: 300px 
+			height: 25px
+			&:focus
+				border: 3px solid black
+	.new-block
+		.new-item
+			border: 1px solid black
+			width: 310px
+			padding: 5px
+			display: flex
+			align-items: center
+			.chk-item
+				margin: 0px 0px 0px 5px
+			.input-item
+				margin: 0px 0px 0px 10px
+				border: none
+				&.strike
+					text-decoration: line-through
+					margin-right: 17.5px
+				&:disabled
+					background: #fff
+			.button
+				margin: 0px 0px 0px 95px
+				background-color: #fff
+				border-radius: 50%
+				padding: 2px
+				width: 20px
+				height: 20px
+				border-color: red
+				font-weight: 700	
+				color: red		
+		
+			
+
+
+		
